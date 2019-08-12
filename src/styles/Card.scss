@@ -1,0 +1,41 @@
+.Card {
+    color: black;
+    width: 1000px;
+    border-radius: 0.5rem;
+    background: get-color(white, core);
+    box-shadow: $shadow-heavy;
+    padding: 1rem;
+    margin-bottom: 4rem;
+    flex-shrink: 1;
+
+    display: flex;
+    justify-content: space-between;
+
+    height: 400px;
+
+    background: url('../imgs/prettypictures.png') no-repeat center center;
+    background-size: cover;
+
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.Card__content {
+    width: 70%;
+}
+
+.Card__title {
+    font-weight: 500;
+    font-size: 30px;
+    color: get-color(black, 300);
+}
+
+.Card__logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    img {
+        height: 535px;
+    }
+}

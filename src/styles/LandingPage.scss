@@ -1,0 +1,21 @@
+.LandingPage {
+    width: 100vw;
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fade-in 800ms ease;
+
+    &__title {
+        font-weight: 100;
+        font-size: 100px;
+        margin-bottom: 1.5rem;
+    }
+
+    &__subtitle {
+        font-family: 'Fira Mono', monospace;
+        font-size: 24px;
+        color: rgba(255,255,255,0.60);
+        margin-bottom: 1.5rem;
+    }
+}
