@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const Card = ({ title, logo, href }) => {
     return (
-        <a className="Card" href={href}>
+        <a className="Card" href={href} target="_blank">
             {/* <div className="Card__logo" > */}
                 <img src={logo} alt="logo" />
             {/* </div> */}

@@ -1,28 +1,28 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import './styles/_index.scss';
 import Nav from './components/Nav';
 import LandingPage from './components/LandingPage';
 import Content from './components/Content';
 import Footer from './components/Footer';
-
-/**
- * the theme context exposes the theme itself and a method to toggle the theme
- */
-export const ThemeContext = React.createContext({
-  isDarkMode: true,
-  toggleDarkMode: () => {}
-});
+import { ThemeContext } from './contexts/themeContext.js';
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(true);
+  const theme = useContext(ThemeContext);
 
   const toggleDarkMode = () => {
     setIsDarkMode((prevIsDarkMode) => !prevIsDarkMode);
   };
 
+  const getThemeClass = (baseClassName) => {
+    return isDarkMode ? `${baseClassName}--dark` : `${baseClassName}--light`;
+  }
+
+  const themeClass = isDarkMode ? 'App--dark' : 'App--light';
+
   return (
-    <ThemeContext.Provider value={{ isDarkMode, toggleDarkMode }}>
-      <div className="App">
+    <ThemeContext.Provider value={{ isDarkMode, toggleDarkMode, getThemeClass }}>
+      <div className={`App ${themeClass}`}>
         <Nav />
         <LandingPage />
         <Content />

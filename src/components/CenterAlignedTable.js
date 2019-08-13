@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 const CenterAlignedTable = ({ items }) => {
     return (
         <div className="CenterAlignedTable">
-            {items.map((item) => 
-                <div className="CenterAlignedTable__item">
+            {items.map((item, i) => 
+                <div className="CenterAlignedTable__item" key={i}>
                     <div className="CenterAlignedTable__item-left">
                         {item.left}
                     </div>

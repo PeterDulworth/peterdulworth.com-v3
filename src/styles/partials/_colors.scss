@@ -20,19 +20,72 @@ $colors: (
     ),
     red: (
         a11y: #db183f,
-        core: #f53d4e
+        core: #f53d4e,
+        highlight: #ff575f,
+        pastel: #ff858d,
+        tint: #ffe7e6,
+        whisper: #fff0ef,
+    ),
+    orange: (
+        a11y: #e03400,
+        brand: #f60,
+        core: #ff6a1f,
+        highlight: #ff6c40,
+        pastel: #ff946d,
+        tint: #ffdcd0,
+        whisper: #ffeae3,
+    ),
+    yellow: (
+        a11y: #a79011,
+        core: #fce356,
+        highlight: #fceb6a,
+        pastel: #fff185,
+        tint: #fff8c2,
+        whisper: #fffbde,
+    ),
+    green: (
+        a11y: #00825f,
+        core: #00b887,
+        highlight: #32dba3,
+        pastel: #95f5d3,
+        tint: #d1ffef,
+        whisper: #e6fff6,
     ),
     blue: (
         a11y: #0044e3,
         brand: #2164f3,
         core: #085ff7,
-        highlight: #1497ff
+        highlight: #1497ff,
+        pastel: #6ed3ff,
+        tint: #defaff,
+        whisper: #ebfeff
     ),
-    palette: (
+    purple: (
+        a11y: #5a38d6,
+        core: #6c45f7,
+        highlight: #816bff,
+        pastel: #a494ff,
+        tint: #ebe8ff,
+        whisper: #f4f2ff
+    ),
+    pink: (
+        a11y: #d43389,
+        core: #f067e4,
+        highlight: #f57aeb,
+        pastel: #fa9df2,
+        tint: #ffe0fc,
+        whisper: #ffebfd
+    ),
+    palette-dark: (
         primary: #10181b,
         secondary: rgba(255, 255, 255, 0.60),
         code: #0f2027,
-    )
+    ),
+    palette-light: (
+        primary: rgba(255, 255, 255, 0.60),
+        secondary: rgba(255, 255, 255, 0.60),
+        code: #0f2027,
+    ),
 );
 
 @function get-color($color-name, $color-variant: core) {

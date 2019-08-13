@@ -10,6 +10,7 @@
     left: 0;
     right: 0;
     transition: all 0.5s ease-in-out;
+    color: get-color(yellow, tint);
     
     &--active {
         opacity: 1.0;
@@ -17,12 +18,13 @@
 
     &--inactive {
         opacity: 0.0;
-        transform: translateY(-28px);
+        transform: translateY(-30px);
     }
 }
 
 .ThemeToggle__sun {
     transition: all 0.5s ease-in-out;
+    color: get-color(orange, pastel);
 
     &--active {
         opacity: 1.0;

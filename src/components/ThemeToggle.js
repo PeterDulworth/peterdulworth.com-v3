@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
-import { ThemeContext } from '../App.js';
-import { FiSun, FiMoon } from "react-icons/fi";
+import { ThemeContext } from '../contexts/themeContext.js';
+import { FiSun, FiMoon } from 'react-icons/fi';
 
 const ThemeToggle = () => {
     const theme = useContext(ThemeContext);
