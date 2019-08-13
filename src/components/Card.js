@@ -3,14 +3,14 @@ import PropTypes from 'prop-types';
 
 const Card = ({ title, logo, href }) => {
     return (
-        <a className="Card" href={href} target="_blank">
-            {/* <div className="Card__logo" >
+        <a className="Card" href={href}>
+            {/* <div className="Card__logo" > */}
                 <img src={logo} alt="logo" />
-            </div> */}
+            {/* </div> */}
             {/* <div className="Card__content"> */}
-                <div className="Card__title">
+                {/* <div className="Card__title">
                     {title}
-                </div>
+                </div> */}
             {/* </div> */}
         </a>
     );

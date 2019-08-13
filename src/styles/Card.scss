@@ -1,23 +1,24 @@
 .Card {
-    color: black;
+    height: 500px;
     width: 1000px;
-    border-radius: 0.5rem;
-    background: get-color(white, core);
-    box-shadow: $shadow-heavy;
     padding: 1rem;
     margin-bottom: 4rem;
-    flex-shrink: 1;
+    
+    border-radius: 0.5rem;
+    background: get-color(white, core);
+    color: black;
+    box-shadow: $shadow-heavy;
+    overflow: hidden;
 
     display: flex;
     justify-content: space-between;
 
-    height: 400px;
-
-    background: url('../imgs/prettypictures.png') no-repeat center center;
-    background-size: cover;
-
     cursor: pointer;
     text-decoration: none;
+
+    @media (max-width: 1100px)  {
+        width: 80%;
+    }
 }
 
 .Card__content {
@@ -34,8 +35,11 @@
     width: 100%;
     display: flex;
     justify-content: center;
+}
 
-    img {
-        height: 535px;
-    }
+.Card img {
+    margin: -1rem;
+    display: block;
+    object-fit: cover;
+    width: calc(100% + 2rem);
 }

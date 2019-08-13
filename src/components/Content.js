@@ -10,8 +10,8 @@ const Content = (props) => {
 
     return (
         <div className="Content">
-            <Card title="sketches" logo={'prettypictures.png'} href="https://peterdulworth.github.io/sketches/projects.html" />
-            <Card title="skills" logo={'prettypictures.png'} href="https://peterdulworth.github.io/sketches/projects.html" />
+            <Card title="sketches" logo={BlackholeImg} href="https://peterdulworth.github.io/sketches/projects.html" />
+            <Card title="skills" logo={PrettyPictures} href="http://prettypictures.peterdulworth.com/" />
             {/* <Card title="older versions of this site" logo={BlackholeImg} href="https://peterdulworth.github.io/sketches/projects.html" /> */}
             {/* <Card title="older versions of this site" logo={BlackholeImg} href="https://peterdulworth.github.io/sketches/projects.html" /> */}
         </div>
