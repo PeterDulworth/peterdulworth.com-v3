@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/website-2019-august/static/css/main.3a55ac05.chunk.css",
-    "main.js": "/website-2019-august/static/js/main.e3a67342.chunk.js",
-    "main.js.map": "/website-2019-august/static/js/main.e3a67342.chunk.js.map",
+    "main.css": "/website-2019-august/static/css/main.1c0e65f5.chunk.css",
+    "main.js": "/website-2019-august/static/js/main.e009728e.chunk.js",
+    "main.js.map": "/website-2019-august/static/js/main.e009728e.chunk.js.map",
     "runtime~main.js": "/website-2019-august/static/js/runtime~main.3d618e5e.js",
     "runtime~main.js.map": "/website-2019-august/static/js/runtime~main.3d618e5e.js.map",
-    "static/js/2.24002cfc.chunk.js": "/website-2019-august/static/js/2.24002cfc.chunk.js",
-    "static/js/2.24002cfc.chunk.js.map": "/website-2019-august/static/js/2.24002cfc.chunk.js.map",
+    "static/js/2.5f52f786.chunk.js": "/website-2019-august/static/js/2.5f52f786.chunk.js",
+    "static/js/2.5f52f786.chunk.js.map": "/website-2019-august/static/js/2.5f52f786.chunk.js.map",
     "index.html": "/website-2019-august/index.html",
-    "precache-manifest.24dfba5b9b1fa481cd8ce29a3bd41320.js": "/website-2019-august/precache-manifest.24dfba5b9b1fa481cd8ce29a3bd41320.js",
+    "precache-manifest.ee82854cc284eb82260ee261cc900521.js": "/website-2019-august/precache-manifest.ee82854cc284eb82260ee261cc900521.js",
     "service-worker.js": "/website-2019-august/service-worker.js",
-    "static/css/main.3a55ac05.chunk.css.map": "/website-2019-august/static/css/main.3a55ac05.chunk.css.map",
+    "static/css/main.1c0e65f5.chunk.css.map": "/website-2019-august/static/css/main.1c0e65f5.chunk.css.map",
     "static/media/blackhole.png": "/website-2019-august/static/media/blackhole.7d8251e7.png",
+    "static/media/peterdulworth.png": "/website-2019-august/static/media/peterdulworth.90338181.png",
     "static/media/prettypictures.png": "/website-2019-august/static/media/prettypictures.40f650c4.png"
   }
 }

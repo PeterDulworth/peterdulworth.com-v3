@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a0760a67f52b6220c3df8d49fcc1363a",
+    "revision": "ec0adfca049d902cc3535afdaba7b6fc",
     "url": "/website-2019-august/index.html"
   },
   {
-    "revision": "2303051dc295b5bcc575",
-    "url": "/website-2019-august/static/css/main.3a55ac05.chunk.css"
+    "revision": "f8c4a54bb555682e8015",
+    "url": "/website-2019-august/static/css/main.1c0e65f5.chunk.css"
   },
   {
-    "revision": "fa776661158a274b3fae",
-    "url": "/website-2019-august/static/js/2.24002cfc.chunk.js"
+    "revision": "193a427910256b73cbb6",
+    "url": "/website-2019-august/static/js/2.5f52f786.chunk.js"
   },
   {
-    "revision": "2303051dc295b5bcc575",
-    "url": "/website-2019-august/static/js/main.e3a67342.chunk.js"
+    "revision": "f8c4a54bb555682e8015",
+    "url": "/website-2019-august/static/js/main.e009728e.chunk.js"
   },
   {
     "revision": "3cc47a036fe16096cd20",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7d8251e7758d08870d9e40c1f4547e37",
     "url": "/website-2019-august/static/media/blackhole.7d8251e7.png"
+  },
+  {
+    "revision": "9033818102533a0039cf8caf57de2cf0",
+    "url": "/website-2019-august/static/media/peterdulworth.90338181.png"
   },
   {
     "revision": "40f650c4e9a590585c841e03634e9151",
