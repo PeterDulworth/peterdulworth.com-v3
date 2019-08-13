@@ -1,9 +1,8 @@
 import React, { useContext } from 'react';
 import { ThemeContext } from '../App.js';
-import PropTypes from 'prop-types';
 import { FiSun, FiMoon } from "react-icons/fi";
 
-const ThemeToggle = (props) => {
+const ThemeToggle = () => {
     const theme = useContext(ThemeContext);
 
     const moonActiveClass = theme.isDarkMode ? 'ThemeToggle__moon--active' : 'ThemeToggle__moon--inactive';
@@ -15,10 +14,6 @@ const ThemeToggle = (props) => {
             <FiSun className={`ThemeToggle__sun ${sunActiveClass}`} />
         </div>
     );
-};
-
-ThemeToggle.propTypes = {
-    
 };
 
 export default ThemeToggle;

@@ -1,11 +1,10 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import RiceLogo from '../imgs/rice.png';
 import BlackholeImg from '../imgs/blackhole.png';
 import PrettyPictures from '../imgs/prettypictures.png';
 import Card from './Card';
 
-const Content = (props) => {
+const Content = () => {
     console.log(RiceLogo);
 
     return (
@@ -16,10 +15,6 @@ const Content = (props) => {
             {/* <Card title="older versions of this site" logo={BlackholeImg} href="https://peterdulworth.github.io/sketches/projects.html" /> */}
         </div>
     );
-};
-
-Content.propTypes = {
-    
 };
 
 export default Content;

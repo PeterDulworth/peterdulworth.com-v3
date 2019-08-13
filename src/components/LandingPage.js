@@ -1,7 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import CenterAlignedTable from './CenterAlignedTable';
-import TypeWriter from './TypeWriter';
 import SocialLinks from './SocialLinks';
 
 const LandingPage = (props) => {
@@ -28,10 +26,6 @@ const LandingPage = (props) => {
             </div>
         </div>
     );
-};
-
-LandingPage.propTypes = {
-    
 };
 
 export default LandingPage;
