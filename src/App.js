@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './styles/_index.scss';
 import Nav from './js/components/Nav';
-import LandingPage from './js/components/LandingPage';
+import LandingPage from './js/pages/LandingPage';
 import Content from './js/components/Content';
 import Footer from './js/components/Footer';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';

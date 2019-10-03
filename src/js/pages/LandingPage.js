@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
-import CenterAlignedTable from './CenterAlignedTable';
-import SocialLinks from './SocialLinks';
+import CenterAlignedTable from '../components/CenterAlignedTable';
+import SocialLinks from '../components/SocialLinks';
 import { ThemeContext } from '../contexts/themeContext.js';
-import RainbowText from './RaindbowText';
+import RainbowText from '../components/RaindbowText';
 
 const LandingPage = () => {
     const theme = useContext(ThemeContext);
