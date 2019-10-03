@@ -3,10 +3,8 @@ import PropTypes from 'prop-types';
 
 const TypeWriter = ({ text }) => {
     return (
-        <div className="TypeWriter">
-            <div className="TypeWriter__input">
-                {text}
-            </div>
+        <div className='TypeWriter'>
+            <div className='TypeWriter__input'>{text}</div>
         </div>
     );
 };
