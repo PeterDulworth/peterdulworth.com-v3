@@ -1,14 +1,14 @@
 .App {
   text-align: center;
   overflow-y: scroll;
-}
 
-.App--dark {
-  background: get-color(palette-dark, code);
-  color: white;
-}
+  &--dark {
+    background: get-color(palette-dark, code);
+    color: white;
+  }
 
-.App--light {
-  background: get-color(palette-light, primary);
-  color: get-color(palette-dark, code);
+  &--light {
+    background: get-color(palette-light, primary);
+    color: get-color(palette-dark, code);
+  }
 }

@@ -9,7 +9,7 @@ const ThemeToggle = () => {
     const sunActiveClass = !theme.isDarkMode ? 'ThemeToggle__sun--active' : 'ThemeToggle__sun--inactive';
 
     return (
-        <div className="ThemeToggle" onClick={theme.toggleDarkMode}>
+        <div className='ThemeToggle' onClick={theme.toggleDarkMode}>
             <FiMoon className={`ThemeToggle__moon ${moonActiveClass}`} />
             <FiSun className={`ThemeToggle__sun ${sunActiveClass}`} />
         </div>

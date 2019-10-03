@@ -7,6 +7,7 @@ $colors: (
     ),
     black: (
         core: #000,
+        950: #0b0b0b,
         900: #2d2d2d,
         800: #4b4b4b,
         700: #6f6f6f,
@@ -79,7 +80,7 @@ $colors: (
     palette-dark: (
         primary: #10181b,
         secondary: rgba(255, 255, 255, 0.60),
-        code: #0f2027,
+        code:  #0b0b0b // #0f2027,
     ),
     palette-light: (
         primary: rgba(255, 255, 255, 0.60),

@@ -3,12 +3,12 @@ import PropTypes from 'prop-types';
 
 const Card = ({ title, logo, href }) => {
     return (
-        <a className="Card" href={href} target="_blank">
+        <a className='Card' href={href} target='_blank' rel='noreferrer noopener'>
             {/* <div className="Card__logo" > */}
-                <img src={logo} alt="logo" />
+            <img src={logo} loading='lazy' alt='logo' />
             {/* </div> */}
             {/* <div className="Card__content"> */}
-                {/* <div className="Card__title">
+            {/* <div className="Card__title">
                     {title}
                 </div> */}
             {/* </div> */}

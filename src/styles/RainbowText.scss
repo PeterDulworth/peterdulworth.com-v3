@@ -1,0 +1,30 @@
+.RainbowText {
+  span {
+    //text-decoration: wavy;
+  }
+
+  & > span:nth-of-type(6n + 1) {
+    color: #fa9df2;
+  }
+
+  & > span:nth-of-type(6n + 2) {
+    color: #ff946d;
+  }
+
+  & > span:nth-of-type(6n + 3) {
+    color: #ff858d;
+    color: #fff185;
+  }
+
+  & > span:nth-of-type(6n + 4) {
+    color: #95f5d3;
+  }
+
+  & > span:nth-of-type(6n + 5) {
+    color: #6ed3ff;
+  }
+
+  & > span:nth-of-type(6n) {
+    color: #a494ff;
+  }
+}

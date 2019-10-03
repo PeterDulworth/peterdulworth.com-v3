@@ -3,7 +3,7 @@ import ThemeToggle from './ThemeToggle';
 
 const Nav = () => {
     return (
-        <nav className="Nav">
+        <nav className='Nav'>
             <ThemeToggle />
         </nav>
     );

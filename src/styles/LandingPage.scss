@@ -10,11 +10,22 @@
         font-weight: 100;
         font-size: 100px;
         margin-bottom: 1.5rem;
+        //color: get-color(black, 500);
+        // animation: shake 1500ms ease;
+        // animation-delay: 1500ms;
+
+        &--dark {
+            //color: get-color(black, 800);
+        }
+
+        &--light {
+            color: get-color(black, 900);
+        }
     }
 
     &__subtitle {
         font-family: 'Fira Mono', monospace;
-        font-size: 24px;
+        font-size: 1.5rem;
         margin-bottom: 1.5rem;
 
         &--dark {
@@ -22,7 +33,7 @@
         }
 
         &--light {
-            color: get-color(blue, highlight);
+            color: get-color(black, 800);
         }
     }
 }

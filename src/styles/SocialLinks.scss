@@ -2,14 +2,14 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
 
-.SocialLinks__link {
-    margin: 0 10px;
-    cursor: pointer;
-    color: inherit; 
+    &__link {
+        margin: 0 10px;
+        cursor: pointer;
+        color: inherit;
 
-    &:hover {
-        opacity: 0.8;
+        &:hover {
+            opacity: 0.8;
+        }
     }
 }
