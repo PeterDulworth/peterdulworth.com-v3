@@ -1,0 +1,75 @@
+$bcl-spacing-sizes: (
+        none: 0,
+        xxs: 2px,
+        xs: 4px,
+        sm: 8px,
+        md: 16px,
+        lg: 24px,
+        xl: 32px,
+        xxl: 40px,
+        xxxl: 48px,
+        xxxxl: 64px,
+);
+
+$bcl-letter-spacing-sizes: (
+        xs: -2px,
+        sm: -1px,
+        md: -0.5px,
+        lg: 1px,
+
+);
+
+// margin bottom
+@mixin bcl-space-stack($size, $excludeLast: true) {
+  $stack: map-get($bcl-spacing-sizes, $size);
+  margin-bottom: $stack;
+
+  @if $excludeLast == false {
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+// margin right
+@mixin bcl-space-inline($size, $excludeLast: true) {
+  $inline: map-get($bcl-spacing-sizes, $size);
+  margin-bottom: $inline;
+
+  @if $excludeLast == false {
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+// letter spacing
+@mixin bcl-space-inline($size, $excludeLast: true) {
+  $letter-space: map-get($bcl-letter-spacing-sizes, $size);
+  letter-spacing: $letter-space;
+}
+
+// padding
+@mixin bcl-space-inset($size, $directions: null) {
+  $inset: map-get($bcl-spacing-sizes, $size);
+
+  @if $directions == lr {
+    padding-left: $inset;
+    padding-right: $inset;
+  } @else if $directions == tb {
+    padding-top: $inset;
+    padding-bottom: $inset;
+  } @else if $directions == t {
+    padding-top: $inset;
+  } @else if $directions == b {
+    padding-bottom: $inset;
+  } @else if $directions == l {
+    padding-left: $inset;
+  } @else if $directions == r {
+    padding-right: $inset;
+  } @else if ($directions == null or $directions == all) {
+    padding: $inset;
+  } @else if $directions != null {
+    @error "`#{$directions}` is not a valid directions.";
+  }
+}

@@ -1,30 +1,48 @@
 .RainbowText {
-  span {
-    //text-decoration: wavy;
-  }
-
-  & > span:nth-of-type(6n + 1) {
-    color: #fa9df2;
-  }
-
-  & > span:nth-of-type(6n + 2) {
-    color: #ff946d;
-  }
-
-  & > span:nth-of-type(6n + 3) {
-    color: #ff858d;
-    color: #fff185;
-  }
-
-  & > span:nth-of-type(6n + 4) {
-    color: #95f5d3;
-  }
-
-  & > span:nth-of-type(6n + 5) {
-    color: #6ed3ff;
-  }
-
-  & > span:nth-of-type(6n) {
-    color: #a494ff;
-  }
+  //& > span:nth-of-type(6n + 1) {
+  //  color: #fa9df2;
+  //  color: #ef5350;
+  //  color: #ab47bc;
+  //  //color: #651fff;
+  //  //color: #3949ab;
+  //  //color: #00bcd4;
+  //  //color: #4caf50;
+  //  //color: #ffc107;
+  //  //color: #e96290;
+  //  //color: #ff8f00;
+  //  //color: #ef5350;
+  //}
+  //
+  //& > span:nth-of-type(6n + 2) {
+  //  color: #ff946d;
+  //  color: #ff858d;
+  //
+  //  color: #ef5350;
+  //  color: #ab47bc;
+  //  color: #651fff;
+  //  color: #3949ab;
+  //  color: #00bcd4;
+  //  color: #4caf50;
+  //  color: #ffc107;
+  //  color: #e96290;
+  //  //color: #ff8f00;
+  //  //color: #ef5350;
+  //}
+  //
+  //& > span:nth-of-type(6n + 3) {
+  //  color: #fff185;
+  //}
+  //
+  //& > span:nth-of-type(6n + 4) {
+  //  color: #95f5d3;
+  //}
+  //
+  //& > span:nth-of-type(6n + 5) {
+  //  color: #6ed3ff;
+  //}
+  //
+  //& > span:nth-of-type(6n) {
+  //  color: #a494ff;
+  //}
 }
+

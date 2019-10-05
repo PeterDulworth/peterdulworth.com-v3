@@ -1,21 +1,20 @@
 .LandingPage {
+    position: relative;
     width: 100vw;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 6rem);
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 10;
     animation: fade-in 800ms ease;
 
     &__title {
-        font-weight: 100;
+        z-index: 100;
+        font-weight: bold;
         font-size: 100px;
         margin-bottom: 1.5rem;
-        //color: get-color(black, 500);
-        // animation: shake 1500ms ease;
-        // animation-delay: 1500ms;
 
         &--dark {
-            //color: get-color(black, 800);
         }
 
         &--light {
@@ -35,5 +34,9 @@
         &--light {
             color: get-color(black, 800);
         }
+    }
+
+    &__indeed {
+        color: get-color(blue, core);
     }
 }

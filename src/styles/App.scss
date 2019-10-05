@@ -1,9 +1,11 @@
 .App {
   text-align: center;
   overflow-y: scroll;
+  font-family: 'Poppins', 'Helvetica Neue', sans-serif;
 
   &--dark {
-    background: get-color(palette-dark, code);
+    //background: get-color(palette-dark, code);
+    background: rgb(22, 22, 22);
     color: white;
   }
 

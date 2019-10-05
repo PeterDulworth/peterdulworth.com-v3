@@ -1,8 +1,23 @@
 .Content {
+    box-sizing: border-box;
     width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
     align-items: center;
+    grid-gap: 2rem;
+    padding: 2rem;
+
     animation: fade-up 800ms ease;
+
+    // single column on small screens
+    @media (max-width: 1000px)  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        & > * {
+            margin-bottom: 2rem;
+        }
+    }
 }

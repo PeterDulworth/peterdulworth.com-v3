@@ -1,0 +1,17 @@
+$shadow-light: 0 0 5px 1px rgba(0, 0, 0, 0.05);
+$shadow-medium: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+$shadow-heavy: 0 8px 15px 4px rgba(0, 0, 0, 0.50);
+
+$bcl-shadow: (
+        none: 0,
+        sm: 0,
+        md: 8px,
+        lg: 8px,
+        xl: 12px,
+);
+
+// border radius
+@mixin bcl-shadow($size) {
+  $stack: map-get($bcl-shadow, $size);
+  box-shadow: $stack;
+}
