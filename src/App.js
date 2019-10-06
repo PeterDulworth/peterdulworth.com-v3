@@ -6,6 +6,7 @@ import Nav from './js/components/Nav';
 import HomePage from './js/pages/HomePage';
 import GalleryPage from './js/pages/GalleryPage';
 import Footer from './js/components/Footer';
+import ThemeToggle from './js/components/ThemeToggle';
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -24,12 +25,15 @@ function App() {
     <ThemeContext.Provider value={{ isDarkMode, toggleDarkMode, getThemeClass }}>
       <Router>
         <div className={`App ${themeClass}`}>
+          <ThemeToggle />
+          <Nav />
           <Switch>
             <Route path='/gallery'>
               <GalleryPage />
             </Route>
             <Route path='/about'>about</Route>
             <Route path='/resume'>resume</Route>
+            <Route path='/art'>art</Route>
             <Route path='/'>
               <HomePage />
             </Route>

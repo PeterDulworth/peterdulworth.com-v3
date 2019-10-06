@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from '../components/Nav';
-import Content from '../components/Content';
+import Grid from '../components/Grid';
 import BlackholeImg from '../../imgs/blackhole.png';
 import FranzImg from '../../imgs/franz.png';
 import JosieBallImg from '../../imgs/josie_ball.jpg';
@@ -13,7 +13,7 @@ const GalleryPage = () => {
     <div className='GalleryPage'>
       <Nav />
       <h1>Gallery</h1>
-      <Content>
+      <Grid>
         <Card
           title='sketches'
           subtitle='asdf'
@@ -44,7 +44,7 @@ const GalleryPage = () => {
           logo={JosieBoxImg}
           href='https://peterdulworth.github.io/sketches/projects.html'
         />
-      </Content>
+      </Grid>
     </div>
   );
 };

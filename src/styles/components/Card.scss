@@ -5,6 +5,11 @@
     cursor: pointer;
     text-decoration: none;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     &--light {
     }
 
@@ -12,16 +17,24 @@
     }
 }
 
-.Card img {
-    background: white;
+.Card__image {
     display: block;
     object-fit: cover;
     width: 100%;
     height: 100%;
+
+    &--svg {
+        //height: 60%;
+        object-fit: contain;
+        //transform: scale(0.4);
+        fill: black;
+        //background: purple;
+    }
 }
 
 .Card__description {
     height: 100%;
+    width: 100%;
     background: white;
     display: flex;
     flex-direction: column;

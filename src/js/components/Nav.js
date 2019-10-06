@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Nav = () => {
@@ -6,9 +6,16 @@ const Nav = () => {
     <nav className='Nav'>
       <span>Peter Dulworth</span>
       <div className='Nav__links'>
-        <NavLink to='/'>work</NavLink>
-        <NavLink to='/about'>about me</NavLink>
-        <NavLink to='/resume'>resume</NavLink>
+        <NavLink exact to='/' activeClassName='Nav__link--active'>
+          work
+        </NavLink>
+        <NavLink exact to='/about' activeClassName='Nav__link--active'>
+          about me
+        </NavLink>
+        <NavLink exact to='/art' activeClassName='Nav__link--active'>
+          art
+        </NavLink>
+        <a href='http://www.peterdulworth.com/resume/'>Resume</a>
       </div>
     </nav>
   );

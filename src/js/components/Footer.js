@@ -10,6 +10,9 @@ const Footer = () => {
       <div>&copy; Peter Dulworth 2019</div>
       <div>psd2@rice.edu | 6330 Main Street, Houston, TX 77005 | (832) 567-5653</div>
       <div>
+        <a rel='noreferrer noopener' target='_blank' href='http://www.peterdulworth.com/resume/'>
+          Resume
+        </a>
         <a rel='noreferrer noopener' target='_blank' href='https://www.linkedin.com/in/peter-dulworth/'>
           LinkedIn
         </a>
@@ -18,9 +21,6 @@ const Footer = () => {
         </a>
         <a rel='noreferrer noopener' target='_blank' href='http://splash.peterdulworth.com/'>
           Splash
-        </a>
-        <a rel='noreferrer noopener' target='_blank' href='http://www.peterdulworth.com/resume/'>
-          Resume
         </a>
       </div>
     </div>

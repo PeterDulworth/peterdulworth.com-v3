@@ -1,16 +1,23 @@
 .App {
   text-align: center;
   overflow-y: scroll;
-  font-family: Karla, 'Poppins', 'Helvetica Neue', sans-serif;
+  font-family: Karla, 'Helvetica Neue', sans-serif;
+  min-height: 100vh;
 
   &--dark {
     //background: get-color(palette-dark, code);
     background: rgb(22, 22, 22);
     color: white;
+    --primary-color: white;
+    --secondary-color: gray;
+    --background-color: black;
   }
 
   &--light {
     background: get-color(palette-light, primary);
     color: get-color(palette-dark, code);
+    --primary-color: black;
+    --secondary-color: gray;
+    --background-color: white;
   }
 }

@@ -3,8 +3,17 @@ import PropTypes from 'prop-types';
 import { ThemeContext } from '../contexts/themeContext';
 import { Redirect } from 'react-router-dom';
 
-const Card = ({ title, subtitle, logo, href }) => {
-  const imgDiv = <img src={logo} loading='lazy' alt='logo' />;
+const Card = ({ title, subtitle, logo, href, color, isSvg = false, scale }) => {
+  console.log(logo);
+  const imgDiv = (
+    <img
+      src={logo}
+      loading='lazy'
+      alt='logo'
+      className={`Card__image ${isSvg ? 'Card__image--svg' : ''}`}
+      style={{ transform: `scale(${scale})` }}
+    />
+  );
   const theme = useContext(ThemeContext);
   const cardThemeClass = theme.getThemeClass('Card');
   const [content, setContent] = useState(imgDiv);
@@ -30,6 +39,7 @@ const Card = ({ title, subtitle, logo, href }) => {
 
   return (
     <a
+      style={{ background: color }}
       className={`Card ${cardThemeClass}`}
       href={href}
       target='_blank'

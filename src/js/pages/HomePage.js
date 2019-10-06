@@ -1,63 +1,49 @@
-import React, { useContext } from 'react';
-import CenterAlignedTable from '../components/CenterAlignedTable';
-import SocialLinks from '../components/SocialLinks';
-import { ThemeContext } from '../contexts/themeContext.js';
-import RainbowText from '../components/RaindbowText';
-import P5Wrapper from 'react-p5-wrapper';
-import sketch from '../sketches/sketch';
+import React from 'react';
 import Card from '../components/Card';
-import RiceImg from '../../imgs/rice.png';
+import Grid from '../components/Grid';
+import RiceSvg from '../../imgs/rice.svg';
 import DogStickers from '../../imgs/dogstickers.png';
-import IndeedImg from '../../imgs/indeed.png';
+import IndeedSvg from '../../imgs/indeed.svg';
 import MoodsicImg from '../../imgs/moodsic.png';
 import StocksImg from '../../imgs/companyinsights.png';
+import PrettyPicturesImg from '../../imgs/prettypictures.png';
 import SketchesImg from '../../imgs/sketches.png';
-import OtherImg from '../../imgs/other2.png';
-import Content from '../components/Content';
-import Nav from '../components/Nav';
-import ThemeToggle from '../components/ThemeToggle';
+import OtherImg from '../../imgs/other.png';
 
 const HomePage = () => {
-  const theme = useContext(ThemeContext);
-  const subtitleThemeClass = theme.getThemeClass('HomePage__subtitle');
-  const titleThemeClass = theme.getThemeClass('HomePage__title');
-
   return (
     <div className='HomePage'>
-      <ThemeToggle />
-      {/*<div className='HomePage__'>*/}
-      {/*  /!*<P5Wrapper sketch={sketch} className='test123' background={theme.isDarkMode ? 22 : 255} />*!/*/}
-      {/*  <div>*/}
-      {/*    <RainbowText text='Peter Dulworth' className={`HomePage__title ${titleThemeClass}`} />*/}
-      {/*    <div className={`HomePage__subtitle ${subtitleThemeClass}`}>*/}
-      {/*      <CenterAlignedTable*/}
-      {/*        items={[*/}
-      {/*          {*/}
-      {/*            left: 'SWE intern',*/}
-      {/*            right: <span className='HomePage__indeed'>indeed.com</span>,*/}
-      {/*          },*/}
-      {/*          {*/}
-      {/*            left: 'CS',*/}
-      {/*            right: 'rice university',*/}
-      {/*          },*/}
-      {/*        ]}*/}
-      {/*      />*/}
-      {/*      <br />*/}
-      {/*      <SocialLinks />*/}
-      {/*    </div>*/}
-      {/*  </div>*/}
-      {/*</div>*/}
-      <Nav />
-      {/*<div className='HomePage__spacer' />*/}
-      <Content>
-        <Card title='Rice University' subtitle='b.s. computer science - 2020' logo={RiceImg} href='/rice' />
+      <Grid>
+        <Card
+          title='Rice University'
+          subtitle='b.s. computer science - c/o 2020'
+          logo={RiceSvg}
+          color={'#00205B'}
+          href='/rice'
+          isSvg
+          scale={0.8}
+        />
+        <Card
+          title='Indeed.com'
+          subtitle='swe intern - summer 2019'
+          logo={IndeedSvg}
+          href='/indeed'
+          color={'#2164f3'}
+          isSvg
+          scale={0.3}
+        />
         <Card
           title='Doggo Stickers'
           subtitle='imessages sticker pack - 2018'
           logo={DogStickers}
           href='https://github.com/PeterDulworth/Doggo-Stickers'
         />
-        <Card title='Indeed.com' subtitle='swe intern - 2019' logo={IndeedImg} href='/indeed' />
+        <Card
+          title='Company Insights'
+          subtitle='stock market web scraper - 2019'
+          logo={StocksImg}
+          href='https://github.com/PeterDulworth/company-insights-webapp'
+        />
         <Card
           title='Moodsic'
           subtitle='tamu hacks - 2018'
@@ -65,19 +51,24 @@ const HomePage = () => {
           href='https://github.com/SophiaJefferson/moodsic'
         />
         <Card
-          title='Company Insights'
-          subtitle='react, python - 2019'
-          logo={StocksImg}
-          href='https://github.com/PeterDulworth/company-insights-webapp'
-        />
-        <Card
           title='Sketches'
           subtitle='p5js sketches - 2019'
           logo={SketchesImg}
           href='https://peterdulworth.github.io/sketches/index.html'
         />
-        <Card title='Other Work...' subtitle='' logo={OtherImg} href='http://splash.peterdulworth.com/' />
-      </Content>
+        <Card
+          title='Pretty Pictures'
+          subtitle='genetic algorithm picture breeder - 2018'
+          logo={PrettyPicturesImg}
+          href='http://prettypictures.peterdulworth.com/'
+        />
+        <Card
+          title='Other Work...'
+          subtitle="older versions of this site and other things i've made"
+          logo={OtherImg}
+          href='http://splash.peterdulworth.com/'
+        />
+      </Grid>
     </div>
   );
 };
