@@ -28,6 +28,10 @@
         text-align: left;
         text-decoration: none;
         color: inherit;
+
+        @media (max-width: 1000px)  {
+            text-align: center;
+        }
     }
 
     a:hover {
