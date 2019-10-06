@@ -17,7 +17,11 @@
 
         & > * {
             max-width: 700px;
-            margin-bottom: 2rem;
+            margin-bottom: 4rem;
+        }
+
+        & > *:last-child {
+            margin-bottom: 0;
         }
     }
 }
