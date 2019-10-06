@@ -4,7 +4,6 @@ import { ThemeContext } from '../contexts/themeContext';
 import { Redirect } from 'react-router-dom';
 
 const Card = ({ title, subtitle, logo, href, color, isSvg = false, scale }) => {
-  console.log(logo);
   const imgDiv = (
     <img
       src={logo}
