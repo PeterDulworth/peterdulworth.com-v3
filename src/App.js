@@ -7,6 +7,7 @@ import HomePage from './js/pages/HomePage';
 import GalleryPage from './js/pages/GalleryPage';
 import Footer from './js/components/Footer';
 import ThemeToggle from './js/components/ThemeToggle';
+import ArtPage from './js/pages/ArtPage';
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -33,7 +34,9 @@ function App() {
             </Route>
             <Route path='/about'>about</Route>
             <Route path='/resume'>resume</Route>
-            <Route path='/art'>art</Route>
+            <Route path='/art'>
+              <ArtPage />
+            </Route>
             <Route path='/'>
               <HomePage />
             </Route>

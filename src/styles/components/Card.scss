@@ -24,11 +24,7 @@
     height: 100%;
 
     &--svg {
-        //height: 60%;
         object-fit: contain;
-        //transform: scale(0.4);
-        fill: black;
-        //background: purple;
     }
 }
 
@@ -54,14 +50,4 @@
     color: #aaa;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-}
-
-
-#defaultCanvas0 {
-    z-index: -1;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
 }

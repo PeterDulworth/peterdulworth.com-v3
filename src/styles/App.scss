@@ -9,7 +9,7 @@
     background: rgb(22, 22, 22);
     color: white;
     --primary-color: white;
-    --secondary-color: gray;
+    --secondary-color: #909090;
     --background-color: black;
   }
 
@@ -17,7 +17,7 @@
     background: get-color(palette-light, primary);
     color: get-color(palette-dark, code);
     --primary-color: black;
-    --secondary-color: gray;
+    --secondary-color: #909090;
     --background-color: white;
   }
 }
