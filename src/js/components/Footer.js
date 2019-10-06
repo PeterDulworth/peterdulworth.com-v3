@@ -19,6 +19,9 @@ const Footer = () => {
         <a rel='noreferrer noopener' target='_blank' href='http://splash.peterdulworth.com/'>
           Splash
         </a>
+        <a rel='noreferrer noopener' target='_blank' href='http://www.peterdulworth.com/resume/'>
+          Resume
+        </a>
       </div>
     </div>
   );

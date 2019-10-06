@@ -1,8 +1,8 @@
 {
-  "name": "website-2019-august",
+  "name": "peterdulworth.com-v3",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://peterdulworth.github.io/website-2019-august",
+  "homepage": "https://peterdulworth.github.io/peterdulworth.com-v3/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.21",
     "@fortawesome/free-brands-svg-icons": "^5.10.1",

@@ -1,6 +1,6 @@
 # peterdulworth.com
 
-deployed here: https://peterdulworth.github.io/website-2019-august/
+deployed here: https://peterdulworth.github.io/peterdulworth.com-v3/
 
 ### deploying to gh pages:
 ```

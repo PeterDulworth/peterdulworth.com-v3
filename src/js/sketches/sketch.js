@@ -1,4 +1,5 @@
 const sketch = (p) => {
+  const PADDING = 60;
   let background;
   p.setup = () => {
     p.createCanvas(p.windowWidth, p.windowHeight);
@@ -9,6 +10,13 @@ const sketch = (p) => {
   p.myCustomRedrawAccordingToNewPropsHandler = (props) => {
     if (props.background) {
       background = props.background;
+      console.log('update');
+      try {
+        p.clear();
+        p.background(background);
+        // p.draw();
+        // p.loop();
+      } catch (Error) {}
     }
   };
 
@@ -26,7 +34,7 @@ const sketch = (p) => {
   const K_MIN = 0.004;
   let r = 0;
   const R_STEP = 4;
-  const R_MAX = 200; // try 200
+  const R_MAX = 500; // try 200
 
   // // #3
   // let kDensity = 0.1;
@@ -52,7 +60,6 @@ const sketch = (p) => {
   // const X_STEP = 1;
   // const Y_STEP = 1;
 
-  const PADDING = 60;
   let y = PADDING;
   p.drawRect = () => {
     // translate(width / 2, height / 2); // center the origin
