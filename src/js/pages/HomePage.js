@@ -9,6 +9,8 @@ import PrettyPicturesImg from '../../imgs/work/prettypictures.png';
 import SketchesSvg from '../../imgs/work/sketches.svg';
 import OtherSvg from '../../imgs/work/other.svg';
 
+// TODO add beet-cl or phylovis?
+
 const HomePage = () => {
   return (
     <div className='HomePage'>

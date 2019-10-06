@@ -38,7 +38,7 @@
 .Card__description {
     height: 100%;
     width: 100%;
-    background: white;
+    background: var(--background-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,14 +47,14 @@
 .Card__title {
     text-align: center;
     font-size: 2rem;
-    color: #333;
+    color: var(--primary-color);
     margin-bottom: 0.1rem;
 }
 
 .Card__subtitle {
     font-size: 0.75rem;
     line-height: 1.5em;
-    color: #aaa;
+    color: var(--secondary-color);
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
