@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/peterdulworth.com-v3/static/css/main.7c49e217.chunk.css",
-    "main.js": "/peterdulworth.com-v3/static/js/main.1f7d9950.chunk.js",
-    "main.js.map": "/peterdulworth.com-v3/static/js/main.1f7d9950.chunk.js.map",
+    "main.js": "/peterdulworth.com-v3/static/js/main.fb1ec2db.chunk.js",
+    "main.js.map": "/peterdulworth.com-v3/static/js/main.fb1ec2db.chunk.js.map",
     "runtime~main.js": "/peterdulworth.com-v3/static/js/runtime~main.8156b62b.js",
     "runtime~main.js.map": "/peterdulworth.com-v3/static/js/runtime~main.8156b62b.js.map",
     "static/js/2.2b24b4bf.chunk.js": "/peterdulworth.com-v3/static/js/2.2b24b4bf.chunk.js",
     "static/js/2.2b24b4bf.chunk.js.map": "/peterdulworth.com-v3/static/js/2.2b24b4bf.chunk.js.map",
     "index.html": "/peterdulworth.com-v3/index.html",
-    "precache-manifest.e489ab43ad26a6b04509bee4d7a91182.js": "/peterdulworth.com-v3/precache-manifest.e489ab43ad26a6b04509bee4d7a91182.js",
+    "precache-manifest.5f1ca2416d1a545e2a34d798be23748c.js": "/peterdulworth.com-v3/precache-manifest.5f1ca2416d1a545e2a34d798be23748c.js",
     "service-worker.js": "/peterdulworth.com-v3/service-worker.js",
     "static/css/main.7c49e217.chunk.css.map": "/peterdulworth.com-v3/static/css/main.7c49e217.chunk.css.map",
     "static/media/blackhole.png": "/peterdulworth.com-v3/static/media/blackhole.7d8251e7.png",
-    "static/media/companyinsights.png": "/peterdulworth.com-v3/static/media/companyinsights.ccebfbab.png",
+    "static/media/companyinsights.png": "/peterdulworth.com-v3/static/media/companyinsights.3565c609.png",
     "static/media/dogstickers.png": "/peterdulworth.com-v3/static/media/dogstickers.a62c75d3.png",
     "static/media/easel.svg": "/peterdulworth.com-v3/static/media/easel.8c063cac.svg",
     "static/media/franz.png": "/peterdulworth.com-v3/static/media/franz.1f12c539.png",
@@ -22,7 +22,7 @@
     "static/media/josie_box.jpg": "/peterdulworth.com-v3/static/media/josie_box.45d7d73e.jpg",
     "static/media/moodsic.png": "/peterdulworth.com-v3/static/media/moodsic.96886bcd.png",
     "static/media/other.png": "/peterdulworth.com-v3/static/media/other.f3bd89d7.png",
-    "static/media/prettypictures.png": "/peterdulworth.com-v3/static/media/prettypictures.0c070d5c.png",
+    "static/media/prettypictures.png": "/peterdulworth.com-v3/static/media/prettypictures.d2af2907.png",
     "static/media/rice.svg": "/peterdulworth.com-v3/static/media/rice.657b0b70.svg",
     "static/media/sketches.png": "/peterdulworth.com-v3/static/media/sketches.eb27462f.png"
   }

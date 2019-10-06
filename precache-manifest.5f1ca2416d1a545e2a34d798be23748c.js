@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "004a34538a6cfb43b6e1f9f369198cf8",
+    "revision": "e978e80dfcf6e4124889c2a9366fa0ec",
     "url": "/peterdulworth.com-v3/index.html"
   },
   {
-    "revision": "8b230b16e09c3ea422f6",
+    "revision": "b43a967846d014dfe128",
     "url": "/peterdulworth.com-v3/static/css/main.7c49e217.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/peterdulworth.com-v3/static/js/2.2b24b4bf.chunk.js"
   },
   {
-    "revision": "8b230b16e09c3ea422f6",
-    "url": "/peterdulworth.com-v3/static/js/main.1f7d9950.chunk.js"
+    "revision": "b43a967846d014dfe128",
+    "url": "/peterdulworth.com-v3/static/js/main.fb1ec2db.chunk.js"
   },
   {
     "revision": "c08df8b0d589235afd12",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/peterdulworth.com-v3/static/media/blackhole.7d8251e7.png"
   },
   {
-    "revision": "ccebfbabe22f068d2360647441aff906",
-    "url": "/peterdulworth.com-v3/static/media/companyinsights.ccebfbab.png"
+    "revision": "3565c60900911515077ade2ebbf3721a",
+    "url": "/peterdulworth.com-v3/static/media/companyinsights.3565c609.png"
   },
   {
     "revision": "a62c75d35789c53a31719a520d46c834",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/peterdulworth.com-v3/static/media/other.f3bd89d7.png"
   },
   {
-    "revision": "0c070d5c04fd0421182be37cd6fd2834",
-    "url": "/peterdulworth.com-v3/static/media/prettypictures.0c070d5c.png"
+    "revision": "d2af290780d254efd185f91663bb8035",
+    "url": "/peterdulworth.com-v3/static/media/prettypictures.d2af2907.png"
   },
   {
     "revision": "657b0b70a7e7d02191e1166f358e72ff",
