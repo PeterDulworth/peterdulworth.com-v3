@@ -1,12 +1,11 @@
 .Content {
     box-sizing: border-box;
-    width: 100vw;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
     grid-gap: 2rem;
-    padding: 2rem;
 
     animation: fade-up 800ms ease;
 
@@ -17,6 +16,7 @@
         align-items: center;
 
         & > * {
+            max-width: 700px;
             margin-bottom: 2rem;
         }
     }

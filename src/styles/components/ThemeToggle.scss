@@ -1,37 +1,43 @@
 .ThemeToggle {
-    position: relative;
+    position: absolute;
+        top: 0;
+        right: 0;
+    z-index: 101;
     width: 24px;
     height: 24px;
+    padding: 0.3rem 0.5rem;
+    font-size: 24px;
     cursor: pointer;
 }
 
-.ThemeToggle__moon {
-    opacity: 1.0;
-    left: 0;
-    right: 0;
-    transition: all 0.5s ease-in-out;
-    color: get-color(yellow, tint);
-    
-    &--active {
-        opacity: 1.0;
-    }
-
-    &--inactive {
-        opacity: 0.0;
-        transform: translateY(-30px);
-    }
-}
-
 .ThemeToggle__sun {
+    opacity: 0.0;
     transition: all 0.5s ease-in-out;
     color: get-color(orange, pastel);
 
     &--active {
         opacity: 1.0;
-        transform: translateY(-30px);
+        transform: translateY(-29px);
     }
 
     &--inactive {
         opacity: 0.0;
+        transform: translateY(0);
+    }
+}
+
+.ThemeToggle__moon {
+    opacity: 1.0;
+    transition: all 0.5s ease-in-out;
+    color: get-color(yellow, tint);
+
+    &--active {
+        opacity: 1.0;
+        transform: translateY(0);
+    }
+
+    &--inactive {
+        opacity: 0.0;
+        transform: translateY(-30px);
     }
 }

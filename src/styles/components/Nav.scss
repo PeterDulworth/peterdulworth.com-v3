@@ -1,18 +1,43 @@
 .Nav {
-    position: absolute;
-        top: 0;
-        right: 0;
-        left: 0;
-
-    height: 40px;
     z-index: 101;
 
-    font-family: 'Fira Mono', monospace;
-    color: get-color(palette-dark, secondary);
-    font-size: 24px;
+    font-family: Karla, monospace;
+    font-size: 1.1rem;
+    margin: 3rem 0;
+    font-weight: bold;
+    text-transform: uppercase;
 
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: space-between;
-    padding: 1rem;
+
+    @media (max-width: 600px)  {
+        flex-direction: column;
+
+        & > *:first-child {
+            margin-bottom: 0.5rem;
+        }
+    }
 }
+
+.Nav__logo {
+    font-size: 1.1rem;
+}
+
+.Nav__links {
+    & > * {
+        margin: 0 1rem;
+    }
+}
+
+.Nav__links a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: lowercase;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+

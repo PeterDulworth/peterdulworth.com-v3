@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Nav from '../components/Nav';
 import Content from '../components/Content';
 import BlackholeImg from '../../imgs/blackhole.png';
@@ -9,9 +8,9 @@ import JosieBasketImg from '../../imgs/josie_basket.jpg';
 import JosieBoxImg from '../../imgs/josie_box.jpg';
 import Card from '../components/Card';
 
-const Gallery = () => {
+const GalleryPage = () => {
   return (
-    <div className='Gallery'>
+    <div className='GalleryPage'>
       <Nav />
       <h1>Gallery</h1>
       <Content>
@@ -50,6 +49,4 @@ const Gallery = () => {
   );
 };
 
-Gallery.propTypes = {};
-
-export default Gallery;
+export default GalleryPage;

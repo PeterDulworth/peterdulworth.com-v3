@@ -14,37 +14,41 @@ import StocksImg from '../../imgs/companyinsights.png';
 import SketchesImg from '../../imgs/sketches.png';
 import OtherImg from '../../imgs/other2.png';
 import Content from '../components/Content';
+import Nav from '../components/Nav';
+import ThemeToggle from '../components/ThemeToggle';
 
-const LandingPage = () => {
+const HomePage = () => {
   const theme = useContext(ThemeContext);
-  const subtitleThemeClass = theme.getThemeClass('LandingPage__subtitle');
-  const titleThemeClass = theme.getThemeClass('LandingPage__title');
+  const subtitleThemeClass = theme.getThemeClass('HomePage__subtitle');
+  const titleThemeClass = theme.getThemeClass('HomePage__title');
 
-  // TODO add wavy underline
   return (
-    <div>
-      <div className='LandingPage'>
-        <P5Wrapper sketch={sketch} className='test123' background={theme.isDarkMode ? 22 : 255} />
-        <div>
-          <RainbowText text='Peter Dulworth' className={`LandingPage__title ${titleThemeClass}`} />
-          <div className={`LandingPage__subtitle ${subtitleThemeClass}`}>
-            <CenterAlignedTable
-              items={[
-                {
-                  left: 'SWE intern',
-                  right: <span className='LandingPage__indeed'>indeed.com</span>,
-                },
-                {
-                  left: 'CS',
-                  right: 'rice university',
-                },
-              ]}
-            />
-            <br />
-            <SocialLinks />
-          </div>
-        </div>
-      </div>
+    <div className='HomePage'>
+      <ThemeToggle />
+      {/*<div className='HomePage__'>*/}
+      {/*  /!*<P5Wrapper sketch={sketch} className='test123' background={theme.isDarkMode ? 22 : 255} />*!/*/}
+      {/*  <div>*/}
+      {/*    <RainbowText text='Peter Dulworth' className={`HomePage__title ${titleThemeClass}`} />*/}
+      {/*    <div className={`HomePage__subtitle ${subtitleThemeClass}`}>*/}
+      {/*      <CenterAlignedTable*/}
+      {/*        items={[*/}
+      {/*          {*/}
+      {/*            left: 'SWE intern',*/}
+      {/*            right: <span className='HomePage__indeed'>indeed.com</span>,*/}
+      {/*          },*/}
+      {/*          {*/}
+      {/*            left: 'CS',*/}
+      {/*            right: 'rice university',*/}
+      {/*          },*/}
+      {/*        ]}*/}
+      {/*      />*/}
+      {/*      <br />*/}
+      {/*      <SocialLinks />*/}
+      {/*    </div>*/}
+      {/*  </div>*/}
+      {/*</div>*/}
+      <Nav />
+      {/*<div className='HomePage__spacer' />*/}
       <Content>
         <Card title='Rice University' subtitle='b.s. computer science - 2020' logo={RiceImg} href='/rice' />
         <Card
@@ -78,4 +82,4 @@ const LandingPage = () => {
   );
 };
 
-export default LandingPage;
+export default HomePage;

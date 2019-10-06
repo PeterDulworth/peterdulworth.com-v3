@@ -28,8 +28,9 @@ function App() {
             <Route path='/gallery'>
               <GalleryPage />
             </Route>
+            <Route path='/about'>about</Route>
+            <Route path='/resume'>resume</Route>
             <Route path='/'>
-              <Nav />
               <HomePage />
             </Route>
           </Switch>

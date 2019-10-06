@@ -1,0 +1,53 @@
+.HomePage {
+    //position: relative;
+    //width: 100vw;
+    //height: calc(100vh - 6rem);
+    //display: flex;
+    //justify-content: center;
+    //align-items: center;
+    //z-index: 10;
+    //animation: fade-in 800ms ease;
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 0 5rem 2rem 5rem;
+
+    @media (max-width: 600px)  {
+        padding: 0 2rem 2rem 2rem;
+    }
+}
+
+.HomePage__title {
+    z-index: 100;
+    font-weight: bold;
+    font-size: 100px;
+    margin-bottom: 1.5rem;
+
+    &--dark {
+    }
+
+    &--light {
+        color: get-color(black, 900);
+    }
+}
+
+.HomePage__subtitle {
+    font-family: 'Fira Mono', monospace;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+
+    &--dark {
+        color: get-color(palette-dark, secondary);
+    }
+
+    &--light {
+        color: get-color(black, 800);
+    }
+}
+
+.HomePage__indeed {
+    color: get-color(blue, core);
+}
+
+.HomePage__spacer {
+    height: 2rem;
+}
