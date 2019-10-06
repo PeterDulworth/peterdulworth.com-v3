@@ -1,15 +1,13 @@
 import React from 'react';
 import Card from '../components/Card';
 import Grid from '../components/Grid';
-import RiceSvg from '../../imgs/rice.svg';
-import DogStickers from '../../imgs/dogstickers.png';
-import IndeedSvg from '../../imgs/indeed.svg';
-import MoodsicImg from '../../imgs/moodsic.png';
-import StocksImg from '../../imgs/companyinsights.png';
-import PrettyPicturesImg from '../../imgs/prettypictures.png';
-import SketchesImg from '../../imgs/sketches.png';
-import SketchesSvg from '../../imgs/easel.svg';
-import OtherImg from '../../imgs/other.png';
+import RiceSvg from '../../imgs/work/rice.svg';
+import DogStickers from '../../imgs/work/dogstickers.png';
+import IndeedSvg from '../../imgs/work/indeed.svg';
+import StocksImg from '../../imgs/work/companyinsights.png';
+import PrettyPicturesImg from '../../imgs/work/prettypictures.png';
+import SketchesSvg from '../../imgs/work/easel.svg';
+import OtherImg from '../../imgs/work/other.png';
 
 const HomePage = () => {
   return (

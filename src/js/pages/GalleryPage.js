@@ -1,25 +1,16 @@
 import React from 'react';
-import Nav from '../components/Nav';
 import Grid from '../components/Grid';
-import BlackholeImg from '../../imgs/blackhole.png';
-import FranzImg from '../../imgs/franz.png';
-import JosieBallImg from '../../imgs/josie_ball.jpg';
-import JosieBasketImg from '../../imgs/josie_basket.jpg';
-import JosieBoxImg from '../../imgs/josie_box.jpg';
+import FranzImg from '../../imgs/gallery/franz.png';
+import JosieBallImg from '../../imgs/gallery/josie_ball.jpg';
+import JosieBasketImg from '../../imgs/gallery/josie_basket.jpg';
+import JosieBoxImg from '../../imgs/gallery/josie_box.jpg';
 import Card from '../components/Card';
 
 const GalleryPage = () => {
   return (
     <div className='GalleryPage'>
-      <Nav />
       <h1>Gallery</h1>
       <Grid>
-        <Card
-          title='sketches'
-          subtitle='asdf'
-          logo={BlackholeImg}
-          href='https://peterdulworth.github.io/sketches/projects.html'
-        />
         <Card
           title='franz'
           subtitle='asdf'

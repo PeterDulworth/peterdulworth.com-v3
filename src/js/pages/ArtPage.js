@@ -9,7 +9,8 @@ const ArtPage = () => {
 
   return (
     <div className='ArtPage'>
-      <P5Wrapper sketch={sketch} background={theme.isDarkMode ? 22 : 255} />
+      art
+      {/*<P5Wrapper sketch={sketch} background={theme.isDarkMode ? 22 : 255} />*/}
     </div>
   );
 };
