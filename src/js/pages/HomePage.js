@@ -4,10 +4,10 @@ import Grid from '../components/Grid';
 import RiceSvg from '../../imgs/work/rice.svg';
 import DogStickers from '../../imgs/work/dogstickers.png';
 import IndeedSvg from '../../imgs/work/indeed.svg';
-import StocksImg from '../../imgs/work/companyinsights.png';
+import CompanyInsightsImg from '../../imgs/work/companyinsights.png';
 import PrettyPicturesImg from '../../imgs/work/prettypictures.png';
-import SketchesSvg from '../../imgs/work/easel.svg';
-import OtherImg from '../../imgs/work/other.png';
+import SketchesSvg from '../../imgs/work/sketches.svg';
+import OtherSvg from '../../imgs/work/other.svg';
 
 const HomePage = () => {
   return (
@@ -40,7 +40,7 @@ const HomePage = () => {
         <Card
           title='Company Insights'
           subtitle='stock market web scraper - 2019'
-          logo={StocksImg}
+          logo={CompanyInsightsImg}
           href='https://github.com/PeterDulworth/company-insights-webapp'
         />
         {/*<Card*/}
@@ -67,8 +67,11 @@ const HomePage = () => {
         <Card
           title='Other Work...'
           subtitle="older versions of this site and other things i've made"
-          logo={OtherImg}
+          logo={OtherSvg}
           href='http://splash.peterdulworth.com/'
+          color={'rgb(111, 207, 242)'}
+          isSvg
+          scale={0.2}
         />
       </Grid>
     </div>
