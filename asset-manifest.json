@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/peterdulworth.com-v3/static/css/main.ab0ce9d9.chunk.css",
-    "main.js": "/peterdulworth.com-v3/static/js/main.5b82a827.chunk.js",
-    "main.js.map": "/peterdulworth.com-v3/static/js/main.5b82a827.chunk.js.map",
+    "main.js": "/peterdulworth.com-v3/static/js/main.239edc11.chunk.js",
+    "main.js.map": "/peterdulworth.com-v3/static/js/main.239edc11.chunk.js.map",
     "runtime~main.js": "/peterdulworth.com-v3/static/js/runtime~main.8156b62b.js",
     "runtime~main.js.map": "/peterdulworth.com-v3/static/js/runtime~main.8156b62b.js.map",
     "static/js/2.725a4b7e.chunk.js": "/peterdulworth.com-v3/static/js/2.725a4b7e.chunk.js",
     "static/js/2.725a4b7e.chunk.js.map": "/peterdulworth.com-v3/static/js/2.725a4b7e.chunk.js.map",
     "index.html": "/peterdulworth.com-v3/index.html",
-    "precache-manifest.f40ec39cf138018a4b9256f408a7ef13.js": "/peterdulworth.com-v3/precache-manifest.f40ec39cf138018a4b9256f408a7ef13.js",
+    "precache-manifest.a07b9d0b7ee885f29918d26507d3bb49.js": "/peterdulworth.com-v3/precache-manifest.a07b9d0b7ee885f29918d26507d3bb49.js",
     "service-worker.js": "/peterdulworth.com-v3/service-worker.js",
     "static/css/main.ab0ce9d9.chunk.css.map": "/peterdulworth.com-v3/static/css/main.ab0ce9d9.chunk.css.map",
-    "static/media/companyinsights.png": "/peterdulworth.com-v3/static/media/companyinsights.3565c609.png",
+    "static/media/companyinsights.png": "/peterdulworth.com-v3/static/media/companyinsights.24ded829.png",
     "static/media/dogstickers.png": "/peterdulworth.com-v3/static/media/dogstickers.a62c75d3.png",
-    "static/media/easel.svg": "/peterdulworth.com-v3/static/media/easel.8c063cac.svg",
     "static/media/franz.png": "/peterdulworth.com-v3/static/media/franz.1f12c539.png",
     "static/media/indeed.svg": "/peterdulworth.com-v3/static/media/indeed.8ed99667.svg",
     "static/media/josie_ball.jpg": "/peterdulworth.com-v3/static/media/josie_ball.99c5e4bb.jpg",
     "static/media/josie_basket.jpg": "/peterdulworth.com-v3/static/media/josie_basket.6bd5a0e5.jpg",
     "static/media/josie_box.jpg": "/peterdulworth.com-v3/static/media/josie_box.45d7d73e.jpg",
-    "static/media/other.png": "/peterdulworth.com-v3/static/media/other.f3bd89d7.png",
+    "static/media/other.svg": "/peterdulworth.com-v3/static/media/other.520bdd80.svg",
     "static/media/prettypictures.png": "/peterdulworth.com-v3/static/media/prettypictures.d2af2907.png",
-    "static/media/rice.svg": "/peterdulworth.com-v3/static/media/rice.657b0b70.svg"
+    "static/media/rice.svg": "/peterdulworth.com-v3/static/media/rice.657b0b70.svg",
+    "static/media/sketches.svg": "/peterdulworth.com-v3/static/media/sketches.8c063cac.svg"
   }
 }
