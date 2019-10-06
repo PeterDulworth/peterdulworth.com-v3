@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "266442d331282725f9c3a2072f7470b9",
+    "revision": "7ff0b34166acaf0a1a496f662f5068e9",
     "url": "/peterdulworth.com-v3/index.html"
   },
   {
-    "revision": "4bf720673274d2b37502",
-    "url": "/peterdulworth.com-v3/static/css/main.ec501e8a.chunk.css"
+    "revision": "ca73b4cd08876bfd2c80",
+    "url": "/peterdulworth.com-v3/static/css/main.84ac7081.chunk.css"
   },
   {
     "revision": "7d59de7b94c9f1320cd4",
     "url": "/peterdulworth.com-v3/static/js/2.2b24b4bf.chunk.js"
   },
   {
-    "revision": "4bf720673274d2b37502",
+    "revision": "ca73b4cd08876bfd2c80",
     "url": "/peterdulworth.com-v3/static/js/main.fcbbc91a.chunk.js"
   },
   {
