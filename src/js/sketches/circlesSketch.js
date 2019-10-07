@@ -1,4 +1,4 @@
-const sketch = (p) => {
+const circlesSketch = (p) => {
   const PADDING = 60;
   let background;
   p.setup = () => {
@@ -106,4 +106,4 @@ const sketch = (p) => {
   };
 };
 
-export default sketch;
+export default circlesSketch;
