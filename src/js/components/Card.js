@@ -45,7 +45,9 @@ const Card = ({ title, subtitle, logo, href, color, isSvg = false, scale }) => {
       rel='noreferrer noopener'
       onClick={handleClick}
       onMouseEnter={handleMouseEnter}
+      onTouchStart={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
+      onTouchEnd={handleMouseLeave}
     >
       {content}
       {redirect}
