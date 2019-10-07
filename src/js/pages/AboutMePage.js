@@ -27,12 +27,6 @@ const AboutMePage = () => {
           <p>If you would like to reach me, email me at psd2@rice.edu.</p>
         </div>
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
       <h3>gallery</h3>
       <br />
       <div className='AboutMePage__imageWrapper'>

@@ -17,6 +17,7 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
+  margin-bottom: 8rem;
 
   // single column on small screens
   @media (max-width: 1000px)  {
@@ -69,6 +70,13 @@
 .AboutMePage__image {
   max-height: 400px;
   margin-bottom: 3rem;
+  max-width: 100%;
+
+  @media (max-width: 600px)  {
+    &:not(:last-child) {
+      padding: 0 2rem;
+    }
+  }
 }
 
 .AboutMePage__contact {
