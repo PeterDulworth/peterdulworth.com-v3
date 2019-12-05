@@ -6,6 +6,7 @@ import DogStickers from '../../imgs/work/dogstickers.png';
 import IndeedSvg from '../../imgs/work/indeed.svg';
 import CompanyInsightsImg from '../../imgs/work/companyinsights.png';
 import PrettyPicturesImg from '../../imgs/work/prettypictures.png';
+import RiceBookImg from '../../imgs/work/ricebook.png';
 import SketchesSvg from '../../imgs/work/sketches.svg';
 import OtherSvg from '../../imgs/work/other.svg';
 
@@ -51,6 +52,12 @@ const HomePage = () => {
         {/*  logo={MoodsicImg}*/}
         {/*  href='https://github.com/SophiaJefferson/moodsic'*/}
         {/*/>*/}
+        <Card
+          title='Rice Book'
+          subtitle='social network - 2019'
+          logo={RiceBookImg}
+          href='http://thericebook.surge.sh'
+        />
         <Card
           title='Pretty Pictures'
           subtitle='genetic algorithm picture breeder - 2018'

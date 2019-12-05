@@ -1,6 +1,7 @@
 # peterdulworth.com
 
-deployed here: https://peterdulworth.github.io/peterdulworth.com-v3/
+deployed here: http://www.peterdulworth.com/
+and here: https://peterdulworth.github.io/peterdulworth.com-v3/
 
 ### deploying to peterdulworth.com:
 
@@ -27,5 +28,5 @@ then
 npm run deploy
 ```
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### illustrator
 

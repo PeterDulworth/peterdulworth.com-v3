@@ -12,9 +12,9 @@ const ArtPage = () => {
       <div id='rectanglesSketch'>
         <P5Wrapper sketch={rectanglesSketch} isDarkMode={theme.isDarkMode} />
       </div>
-      <div id='mountainsSketch'>
-        <P5Wrapper sketch={mountainsSketch} isDarkMode={theme.isDarkMode} />
-      </div>
+      {/*<div id='mountainsSketch'>*/}
+      {/*  <P5Wrapper sketch={mountainsSketch} isDarkMode={theme.isDarkMode} />*/}
+      {/*</div>*/}
     </div>
   );
 };
