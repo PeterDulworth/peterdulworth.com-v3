@@ -52,12 +52,7 @@ const HomePage = () => {
         {/*  logo={MoodsicImg}*/}
         {/*  href='https://github.com/SophiaJefferson/moodsic'*/}
         {/*/>*/}
-        <Card
-          title='Rice Book'
-          subtitle='social network - 2019'
-          logo={RiceBookImg}
-          href='http://thericebook.surge.sh'
-        />
+        <Card title='Rice Book' subtitle='social network - 2019' logo={RiceBookImg} href='http://rice_book.surge.sh/' />
         <Card
           title='Pretty Pictures'
           subtitle='genetic algorithm picture breeder - 2018'
