@@ -1,3 +1,9 @@
+/**
+ * The top level SCSS file that imports all other SCSS.
+ * This is the file that will be imported by App.js.
+ * The order of imports is important. Partials first, then App, then everything else.
+ */
+
 @import 'partials/_index';
 @import 'App';
 @import 'pages/_index';

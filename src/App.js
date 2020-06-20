@@ -1,3 +1,8 @@
+/**
+ * The top level component for the website.
+ * Sets up contexts and routing.
+ */
+
 import React, { useState } from 'react';
 import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import { ThemeContext } from './js/contexts/themeContext.js';
@@ -9,6 +14,7 @@ import Footer from './js/components/Footer';
 import ThemeToggle from './js/components/ThemeToggle';
 import ArtPage from './js/pages/ArtPage';
 import AboutMePage from './js/pages/AboutMePage';
+import PetsPage from './js/pages/PetsPage';
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -39,6 +45,9 @@ function App() {
             <Route path='/resume'>resume</Route>
             <Route path='/art'>
               <ArtPage />
+            </Route>
+            <Route path='/pets'>
+              <PetsPage />
             </Route>
             <Route path='/'>
               <HomePage />

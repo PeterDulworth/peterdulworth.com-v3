@@ -1,0 +1,12 @@
+.PetsPage {
+  width: 100vw;
+  box-sizing: border-box;
+  padding: 0 5rem 2rem 5rem;
+
+  @media (max-width: 600px)  {
+    padding: 0 2rem 2rem 2rem;
+  }
+
+  //animation: fade-in 800ms ease;
+}
+

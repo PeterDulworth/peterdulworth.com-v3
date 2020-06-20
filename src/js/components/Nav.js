@@ -9,10 +9,13 @@ const Nav = () => {
       </Link>
       <div className='Nav__links'>
         <NavLink exact to='/' activeClassName='Nav__link--active'>
-          work
+          home
         </NavLink>
         <NavLink exact to='/about' activeClassName='Nav__link--active'>
           about me
+        </NavLink>
+        <NavLink exact to='/pets' activeClassName='Nav__link--active'>
+          pets
         </NavLink>
         <NavLink exact to='/art' activeClassName='Nav__link--active'>
           art

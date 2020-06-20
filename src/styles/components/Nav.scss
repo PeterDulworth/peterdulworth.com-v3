@@ -45,13 +45,14 @@
 }
 
 .Nav__link--active {
-    color: var(--primary-color) !important; // inherit the theme
+    //color: var(--primary-color) !important; // inherit the theme
+    color: var(--accent-color) !important;
 }
 
-.Nav__link--active:before {
-  content: '('
-}
-
-.Nav__link--active:after {
-  content: ')'
-}
+//.Nav__link--active:before {
+//  content: '('
+//}
+//
+//.Nav__link--active:after {
+//  content: ')'
+//}

@@ -9,6 +9,7 @@
     background: rgb(22, 22, 22);
     color: white;
     --primary-color: white;
+    --accent-color: get-color(blue, brand);
     --secondary-color: #909090;
     --background-color: black;
   }
@@ -17,6 +18,7 @@
     background: get-color(palette-light, primary);
     color: get-color(palette-dark, code);
     --primary-color: black;
+    --accent-color: get-color(blue, brand);
     --secondary-color: #909090;
     --background-color: white;
   }
