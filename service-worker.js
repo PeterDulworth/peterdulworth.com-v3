@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/peterdulworth.com-v3/precache-manifest.83c6a8c070a4e17fd2b4c03c248f5c95.js"
+  "/peterdulworth.com-v3/precache-manifest.054b8ff310e12d43c7aba8cfc710512d.js"
 );
 
 self.addEventListener('message', (event) => {
