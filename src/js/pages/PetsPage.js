@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import PetSection from '../components/PetSection';
 import JosieBallImg from '../../imgs/gallery/josie_ball.jpg';
 import JosieBoxImg from '../../imgs/gallery/josie_box.jpg';
@@ -67,6 +66,6 @@ const PetsPage = ({ ...props }) => {
   );
 };
 
-PetsPage.propTypes = {};
+// PetsPage.propTypes = {};
 
 export default PetsPage;

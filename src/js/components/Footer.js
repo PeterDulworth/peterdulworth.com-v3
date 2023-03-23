@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className={`Footer ${footerThemeClass}`}>
       <div>&copy; Peter Dulworth 2019</div>
-      <div>psd2@rice.edu | 6330 Main Street, Houston, TX 77005 | (832) 567-5653</div>
+      <div>peterdulworth@alumni.rice.edu | San Francisco | (832) 567-5653</div>
       <div>
         <a rel='noreferrer noopener' target='_blank' href='http://www.peterdulworth.com/resume/'>
           Resume
