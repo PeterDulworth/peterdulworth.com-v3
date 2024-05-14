@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
-import { ReactP5Wrapper } from 'react-p5-wrapper';
 import rectanglesSketch from '../sketches/rectanglesSketch';
 import mountainsSketch from '../sketches/mountainsSketch';
 import { ThemeContext } from '../contexts/themeContext';
+import { ReactP5Wrapper } from '@p5-wrapper/react';
 
 const ArtPage = () => {
   const theme = useContext(ThemeContext);

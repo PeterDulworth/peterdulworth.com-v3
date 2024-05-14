@@ -28,5 +28,11 @@ then
 npm run deploy
 ```
 
+### running locally
+```
+npm install
+npm run start
+```
+
 ### illustrator
 
