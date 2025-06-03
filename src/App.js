@@ -43,7 +43,7 @@ function App() {
               <AboutMePage />
             </Route>
             <Route path='/resume'>resume</Route>
-            <Route path='/art'>
+            <Route path='/projects'>
               <ArtPage />
             </Route>
             <Route path='/pets'>

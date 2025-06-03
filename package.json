@@ -21,6 +21,7 @@
     "svgo": "^2.0.0"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@svgr/webpack": "^6.5.1",
     "prettier": "^1.19.1",
     "react-scripts": "^5.0.1"

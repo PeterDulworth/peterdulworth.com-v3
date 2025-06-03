@@ -17,8 +17,8 @@ const Nav = () => {
         <NavLink exact to='/pets' activeClassName='Nav__link--active'>
           pets
         </NavLink>
-        <NavLink exact to='/art' activeClassName='Nav__link--active'>
-          art
+        <NavLink exact to='/projects' activeClassName='Nav__link--active'>
+          projects
         </NavLink>
         <a href='http://www.peterdulworth.com/resume/'>Resume</a>
       </div>
