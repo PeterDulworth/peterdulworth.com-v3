@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/peterdulworth.com-v3/static/css/main.7c95a05c.css",
-    "main.js": "/peterdulworth.com-v3/static/js/main.8d3934e4.js",
+    "main.css": "/peterdulworth.com-v3/static/css/main.721890ce.css",
+    "main.js": "/peterdulworth.com-v3/static/js/main.4fd6c6db.js",
     "static/media/franz6.jpg": "/peterdulworth.com-v3/static/media/franz6.bcf882dbde28300033d2.jpg",
     "static/media/franz3.jpg": "/peterdulworth.com-v3/static/media/franz3.8cd9cc72bbe91f54f2b4.jpg",
     "static/media/franz5.jpg": "/peterdulworth.com-v3/static/media/franz5.df3655634b1268fee920.jpg",
@@ -56,11 +56,11 @@
     "static/media/sketches.svg": "/peterdulworth.com-v3/static/media/sketches.7e0cf91f3da24f6a45975b505c8bd008.svg",
     "index.html": "/peterdulworth.com-v3/index.html",
     "static/media/other.svg": "/peterdulworth.com-v3/static/media/other.1854fc39ec6cc6f4d3b12171e0e3cda3.svg",
-    "main.7c95a05c.css.map": "/peterdulworth.com-v3/static/css/main.7c95a05c.css.map",
-    "main.8d3934e4.js.map": "/peterdulworth.com-v3/static/js/main.8d3934e4.js.map"
+    "main.721890ce.css.map": "/peterdulworth.com-v3/static/css/main.721890ce.css.map",
+    "main.4fd6c6db.js.map": "/peterdulworth.com-v3/static/js/main.4fd6c6db.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c95a05c.css",
-    "static/js/main.8d3934e4.js"
+    "static/css/main.721890ce.css",
+    "static/js/main.4fd6c6db.js"
   ]
 }

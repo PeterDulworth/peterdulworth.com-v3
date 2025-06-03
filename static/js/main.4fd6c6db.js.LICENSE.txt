@@ -1,4 +1,4 @@
-/*! p5.js v1.6.0 February 22, 2023 */
+/*! p5.js v1.9.2 March 19, 2024 */
 
 /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
 
