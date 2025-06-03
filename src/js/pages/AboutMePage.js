@@ -13,18 +13,14 @@ const AboutMePage = () => {
       <div className='AboutMePage__aboutMe'>
         <img src={MeImg} className='AboutMePage__headshot' alt='me' />
         <div className='AboutMePage__text'>
-          <h1 className='AboutMePage__name'>Peter Dulworth</h1>
-          <span className='AboutMePage__contact'>> psd2@rice.edu // 832.567.5653</span>
+          <h1 className='AboutMePage__name'>About Me</h1>
+          <span className='AboutMePage__contact'>&gt; peterdulworth@alumni.rice.edu // San Francisco, CA</span>
           <p>
-            I'm a Senior at the Rice University studying Computer Science & Math. I spent my 2019 summer in Austin TX at
-            Indeed as a software development intern. I am now seeking full time software engineering opportunities in
-            Austin and San Fransisco post graduation.
+            Grew up in Houston, TX. Studied Math + CS at Rice University. Living in San Francisco. Working at Indeed.
           </p>
           <p>
-            I am interested in full stack development. I love building backend services and tying them together into
-            beautiful and cohesive user interfaces.
+            Interested in full stack, user experience, robotics, and interpreters.
           </p>
-          <p>You can reach me at psd2@rice.edu.</p>
         </div>
       </div>
       <h3>gallery</h3>

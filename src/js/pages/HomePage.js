@@ -9,6 +9,7 @@ import PrettyPicturesImg from '../../imgs/work/prettypictures.png';
 import RiceBookImg from '../../imgs/work/ricebook.png';
 import SketchesSvg from '../../imgs/work/sketches.svg';
 import OtherSvg from '../../imgs/work/other.svg';
+import Lucas from '../../imgs/work/lucas2in.png';
 
 // TODO add beet-cl or phylovis?
 
@@ -18,27 +19,21 @@ const HomePage = () => {
       <Grid>
         <Card
           title='Rice University'
-          subtitle='b.s. computer science - c/o 2020'
+          subtitle='b.a. mathematics, b.s. computer science - c/o 2020'
           logo={RiceSvg}
-          color={'#00205B'}
+          color='#00205B'
           href='/rice'
           isSvg
           scale={0.8}
         />
         <Card
           title='Indeed.com'
-          subtitle='swe intern - summer 2019'
+          subtitle='Software Engineer - 2019 ... today'
           logo={IndeedSvg}
           href='/indeed'
-          color={'#2164f3'}
+          color='#2164f3'
           isSvg
           scale={0.3}
-        />
-        <Card
-          title='Doggo Stickers'
-          subtitle='imessages sticker pack - 2018'
-          logo={DogStickers}
-          href='https://github.com/PeterDulworth/Doggo-Stickers'
         />
         <Card
           title='Company Insights'
@@ -58,6 +53,21 @@ const HomePage = () => {
           subtitle='genetic algorithm picture breeder - 2018'
           logo={PrettyPicturesImg}
           href='http://prettypictures.peterdulworth.com/'
+        />
+        <Card
+          title='Smash Rankings'
+          subtitle='ELO ratings system for Smash Bros - 2023'
+          logo={Lucas}
+          color='#897AE3'
+          href='http://smash-ranking.surge.sh/'
+          scale={0.4}
+          isSvg
+        />
+        <Card
+          title='Doggo Stickers'
+          subtitle='imessages sticker pack - 2018'
+          logo={DogStickers}
+          href='https://github.com/PeterDulworth/Doggo-Stickers'
         />
         <Card
           title='Sketches'

@@ -21,6 +21,7 @@ const Nav = () => {
           projects
         </NavLink>
         <a href='http://www.peterdulworth.com/resume/'>Resume</a>
+        <a href='http://splash.peterdulworth.com/'>splash</a>
       </div>
     </nav>
   );

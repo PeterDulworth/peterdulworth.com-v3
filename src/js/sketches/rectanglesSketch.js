@@ -1,4 +1,5 @@
 const rectanglesSketch = (p) => {
+  console.log(p)
   const MAX_WIDTH = 900;
   const DARK_COLOR = 22;
   const LIGHT_COLOR = 255;
@@ -35,7 +36,7 @@ const rectanglesSketch = (p) => {
     p.loop();
   };
 
-  p.myCustomRedrawAccordingToNewPropsHandler = (props) => {
+  p.updateWithProps = props => {
     isDarkMode = props.isDarkMode;
     if (isSetup && p) {
       p.reset();

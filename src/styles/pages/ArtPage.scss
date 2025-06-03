@@ -9,3 +9,23 @@
 
   //animation: fade-in 800ms ease;
 }
+
+.ArtSection__header {
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+
+  @media (max-width: 800px)  {
+    text-align: center;
+  }
+}
+
+.ArtSection__content {
+  text-align: left;
+  margin-bottom: 2rem;
+
+  @media (max-width: 800px)  {
+    text-align: center;
+  }
+}
